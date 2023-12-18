@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="Scripts/jquery-3.7.1.min.js"></script>
+    <script src="JavaScript.js"></script>
+    <title>Leistungsdings</title>
+</head>
+<body>
+    <h1>Leistungsdings</h1>
+    <p id="intervall" name="update">Update Intervall: <span id="intervallValue">1</span> Sekunden</p>
+    <input type="range" id="intervallInput" min="1" max="60" value="1" />
+    <div id="cpu" name="prozessor" style="border: 1px black solid; width: 400px; height:50px;"> </div>
+    <progress id="pro1" name="prozessor" min="0" max="100"></progress>
+    <div id="memory" name="memory1" style="border: 1px black solid; width: 400px; height:50px;"></div>
+    <progress id="mem" name="memory1" min="0" max="32000"></progress>
+    <div id="hdd" name="hdd1" style="border: 1px black solid; width: 400px; height:50px;"></div>
+    <progress id="hd" name="hdd1" min="0" max="100"></progress>
+    <div id="chart_div" style="width: 400px; height: 120px;"></div>
+</body>
+</html>
